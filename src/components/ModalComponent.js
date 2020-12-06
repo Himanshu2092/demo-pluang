@@ -54,6 +54,7 @@ function ModalComponent(props) {
                 type="button"
                 className="btn btn-success"
                 data-dismiss="modal"
+                disabled={!description}
                 onClick={onCreateTicket}
               >
                 Add
