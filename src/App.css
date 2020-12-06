@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ticket {
+  height: 100px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  background-color: #aebedf;
+}
+
+.color1{
+  border: 2px solid;
+  border-right: none;
+  border-collapse: collapse;
+  background-color:rgb(230, 218, 218);
+}
+
+.color2{
+  border: 2px solid;
+  border-right: none;
+  background-color:rgb(230, 218, 218);
+}
+
+.color3{
+  border: 2px solid;
+  background-color:rgb(230, 218, 218);
+}
+
+.sideBar {
+  height: 700px;
+  background: #aaa;
+}
+
+.board {
+  padding: 30px !important;
+  background-color:rgb(241, 239, 239);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
